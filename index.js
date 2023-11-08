@@ -26,3 +26,7 @@ function calculateBMI() {
   
     resultDiv.innerHTML = "BMI kamu adalah " + bmi.toFixed(2) + " (" + category + ")";
   }
+
+function resetData() {
+    var weightInput.value =""
+    var heightInput.value =""
