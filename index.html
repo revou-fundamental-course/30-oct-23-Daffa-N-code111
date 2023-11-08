@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="header">
+            <nav class="header-right">
+                <a class="active" href="">Home</a>
+                <a href="">Contact</a>
+                <a href="">About</a>
+            </nav>
+        </nav>
+    </header>
+
+      <div class="content-container">
+        <div class="left-side">
+          <h1 class="title">Kalkulator BMI</h1>
+    
+          <div class="paragraph">
+                <h3>Deskripsi</h3>
+                <p>
+                  Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?  Yuk, hitung sekarang di Kalkulator BMI
+                </p>
+          </div>
+    
+            <div class="data">
+                <h3>Data</h3>
+                <label for="gender">Jenis kelamin</label>
+                <span>
+                <input type="radio" id="gender-male" name="gender">
+                <label for="gender-male">Laki-laki</label>
+
+                <input type="radio" id="gender-female" name="gender">
+                <label for="gender-female">Perempuan</label>
+                </span>
+
+                <!-- Berat Badan -->
+                <label for="weight-bar">Berat Badan</label>
+                <input type="number" id="weight-bar" placeholder="0">
+
+                <!-- Tinggi Badan -->
+                <label for="height-bar">Tinggi Badan</label>
+                <input type="number" id="height-bar" placeholder="0">
+
+                <!-- Usia -->
+                <label for="age">Usia</label>
+                <input type="number" id="age" placeholder="0">
+
+                    <!-- Tombol hitung dan reset -->
+                <div class="button-style">
+                    <button onClick="calculateBMI()">hitung BMI</button>
+                    <button>reset</button>
+                </div>
+            </div>
+
+            <div>
+                <h2>Keunggulan Fitur</h2>
+                <ol type="1">
+                <li>Menghitung berat badan.</li>
+                <li>Menentukan kategori berat badan ideal atau tidak.</li>
+                <li>Mempersiapkan program penurunan berat badan.</li>
+                </ol>
+                <P class="paragraph">
+                Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hami atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+                </p>
+                <p class="paragraph">
+                Kalkulator akan memberi anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Masa Tubuh (BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = kg/m2.
+                </p>
+            </div>
+
+        </div>
+            <div class="right-side">
+            <div class="hasil">
+                <h3>Hasil</h3>
+                <p id="hasil"></p>
+            </div>
+        
+            <div class="paragraph">
+                <h3>Paragraph</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat minima ullam et fugit sequi officia enim assumenda, deleniti dignissimos architecto recusandae quos? Eos velit quaerat eius minima explicabo incidunt nobis?</p>
+                
+            </div>
+        
+            <div class="content">
+                <h3>beberapa penyakit yang berasal dari kegemukan</h3>
+                    <ul type="square">
+                        <li>Diabetes</li>
+                        <li>Hipertensi</li>
+                        <li>Sakit Jantung</li>
+                        <li>Osteoarthritis</li>
+                    </ul>
+
+                    <!-- Tombol -->
+                    <div class="button-style">
+                        <button>Konsultasi Dokter Via Aplikasi</button>
+                        <button>Registrasi Online Ahli Gizi</button>
+                    </div>
+            </div>
+        
+                <div class="store-link">
+                    <h3>Download Aplikasi</h3>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+            <div class="content-container">
+            </div>
+      </div>
+    </footer>
+
+<script src="js/index.js" href=""></script>
+</body>
+</html>
