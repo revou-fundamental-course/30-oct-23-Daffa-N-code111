@@ -1,0 +1,172 @@
+/* gaya header */
+.header {
+    overflow: hidden;
+    background-color: #FD8D14;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+/* gaya tombol "about" dan "contact" */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    background-color: #F94C10;
+    color: black;
+}
+
+.header a:active {
+    transform: translateY(4px);
+}
+
+/* gaya tombol "home" */
+.header a.active {
+    background-color: #C51605;
+    color: white;
+}
+
+.header a.active:active {
+    transform: translateY(4px);
+}
+
+/* Posisi tombol */
+.header-right {
+    float:right;
+}
+
+
+/* Gaya-Layout */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    background-color: #FFCD4B;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-side, .right-side {
+    width: 50%;
+    text-align: justify;
+
+    /* untuk mempercantik */
+    box-sizing: border-box;
+    padding: 16px 24px;
+  }
+
+  .right-side {
+    /* menghias bagian left side */
+    height: 100px;
+
+  }
+
+  .title {
+    /* menghias bagian title */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 30px;
+
+  }
+
+  .paragraph {
+    /* menghias bagian paragraph */
+    text-align: justify;
+    text-indent: 30px;
+    
+  }
+
+  .data, .hasil, .content {
+    /* memberi kotak kepada bagian data, hasil dan content */
+    width: 100%;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 16px;
+  }
+
+  .hasil {
+    text-align: center;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #F4E869;
+}
+
+label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom:4px;
+    color: black;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    border: solid #FF9130;
+    border-radius: 15px;
+ }
+ 
+ input:focus {
+     border: solid #FF5B22;
+ 
+ }
+  
+  .hasil {
+    background-color: #F4E869;  }
+
+  .content {
+    background-color: #F4E869;
+  }
+
+  /* Style tombol */
+.button-style{
+    margin-top: 10px;
+}
+
+button {
+    font-size: 13px;
+    background-color: #FF7000;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    transform:translateY(4px);
+}
+
+
+
+
+
+
+.footer {
+  overflow: hidden;
+  background-color: #FD8D14;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
