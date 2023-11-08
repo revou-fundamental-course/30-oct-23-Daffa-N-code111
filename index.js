@@ -28,5 +28,7 @@ function calculateBMI() {
   }
 
 function resetData() {
-    var weightInput.value =""
-    var heightInput.value =""
+    document.getElementById("gender-male").checked =false;
+    document.getElementByid("gender-female").checked =false;
+    weightInput.value =""
+    heightInput.value =""
